@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Historia e importancia del pollo frito en Colombia. Sitio educativo sobre la cultura gastronómica colombiana." />
+  <meta name="keywords" content="pollo frito Colombia, historia pollo frito, gastronomía colombiana, cultura culinaria Colombia" />
+  <meta name="author" content="Carol Joanna Valderrama Gongora" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="El Pollo Frito en Colombia — Historia e Importancia Cultural" />
+  <meta property="og:description" content="Descubre la rica historia del pollo frito en la cultura colombiana." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Ads (AdSense) — reemplaza CA-PUB-XXXXXXXXXXXXXXXX con tu ID real -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+  <title>El Pollo Frito en Colombia — Historia e Importancia Cultural</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:    #c8922a;
+      --gold-lt: #f0c060;
+      --brown:   #3b1f0b;
+      --cream:   #fdf6ec;
+      --text:    #2c1a0e;
+      --muted:   #6b5040;
+      --border:  #d4b896;
+      --red:     #b52a2a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    /* ── AVISO EDUCATIVO ── */
+    .edu-banner {
+      background: #1a3a5c;
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 0.82rem;
+      letter-spacing: 0.03em;
+    }
+    .edu-banner strong { color: var(--gold-lt); }
+
+    /* ── AVISO KFC ── */
+    .kfc-banner {
+      background: var(--red);
+      color: #fff;
+      text-align: center;
+      padding: 8px 20px;
+      font-size: 0.8rem;
+    }
+
+    /* ── NAVBAR ── */
+    nav {
+      background: var(--brown);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 24px;
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      color: var(--gold-lt);
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 24px; list-style: none; }
+    .nav-links a {
+      color: #e8d5b7;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold-lt); }
+
+    /* ── HAMBURGER ── */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block; width: 24px; height: 2px;
+      background: var(--gold-lt); border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background:
+        linear-gradient(to bottom, rgba(30,10,0,0.65) 0%, rgba(59,31,11,0.5) 100%),
+        url('https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=1400&h=700&fit=crop&auto=format') center/cover no-repeat;
+      min-height: 540px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 24px;
+      color: #fff;
+    }
+    .hero-eyebrow {
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-lt);
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 700;
+      line-height: 1.2;
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      color: #f0dfc0;
+      font-weight: 300;
+    }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 1100px; margin: auto; padding: 0 24px; }
+    section { padding: 72px 0; }
+    section + section { border-top: 1px solid var(--border); }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      color: var(--gold);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .divider {
+      width: 56px; height: 3px;
+      background: var(--gold);
+      border-radius: 2px;
+      margin: 14px 0 32px;
+    }
+    p { margin-bottom: 18px; }
+    p:last-child { margin-bottom: 0; }
+
+    /* ── TIMELINE ── */
+    .timeline { position: relative; padding-left: 40px; }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 10px; top: 0; bottom: 0;
+      width: 2px;
+      background: var(--gold);
+    }
+    .tl-item { position: relative; margin-bottom: 40px; }
+    .tl-item::before {
+      content: '';
+      position: absolute;
+      left: -36px; top: 6px;
+      width: 14px; height: 14px;
+      background: var(--gold);
+      border-radius: 50%;
+      border: 3px solid var(--cream);
+    }
+    .tl-year {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .tl-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: var(--brown);
+      margin-bottom: 6px;
+    }
+
+    /* ── CARDS ── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 28px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(59,31,11,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(59,31,11,0.16);
+    }
+    .card img {
+      width: 100%; height: 200px; object-fit: cover;
+      background: #d4b896;
+    }
+    .card-body { padding: 22px; }
+    .card-body h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      color: var(--brown);
+      margin-bottom: 8px;
+    }
+    .card-body p { font-size: 0.92rem; color: var(--muted); margin-bottom: 0; }
+
+    /* ── QUOTE ── */
+    .quote-block {
+      background: var(--brown);
+      color: #f0dfc0;
+      border-radius: 12px;
+      padding: 48px 56px;
+      position: relative;
+      margin: 40px 0;
+    }
+    .quote-block::before {
+      content: '"';
+      font-family: 'Playfair Display', serif;
+      font-size: 8rem;
+      color: var(--gold);
+      opacity: 0.3;
+      position: absolute;
+      top: -10px; left: 24px;
+      line-height: 1;
+    }
+    .quote-block blockquote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+    .quote-author {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: var(--gold-lt);
+      letter-spacing: 0.08em;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── STATS ── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .stat-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      display: block;
+    }
+    .stat-label { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
+
+    /* ── AD PLACEHOLDER ── */
+    .ad-slot {
+      background: #f5eedd;
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      text-align: center;
+      margin: 40px 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    /* ── POLICY SECTION ── */
+    .policy-accordion summary {
+      cursor: pointer;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--brown);
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .policy-accordion summary::after { content: '+'; font-size: 1.4rem; color: var(--gold); }
+    .policy-accordion[open] summary::after { content: '−'; }
+    .policy-accordion .acc-body {
+      padding: 20px 0 8px;
+      font-size: 0.92rem;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .policy-accordion .acc-body h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: var(--brown);
+      margin: 18px 0 6px;
+    }
+    .policy-accordion .acc-body ul {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--brown);
+      color: #c8b49a;
+      padding: 56px 24px 32px;
+    }
+    .footer-grid {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 40px;
+    }
+    .footer-brand h3 {
+      font-family: 'Playfair Display', serif;
+      color: var(--gold-lt);
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+    .footer-brand p { font-size: 0.87rem; line-height: 1.7; }
+    .footer-col h4 {
+      color: var(--gold-lt);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 10px; }
+    .footer-col ul a {
+      color: #c8b49a;
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: color 0.2s;
+    }
+    .footer-col ul a:hover { color: var(--gold-lt); }
+    .footer-bottom {
+      max-width: 1100px;
+      margin: auto;
+      border-top: 1px solid rgba(200,180,150,0.2);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: var(--brown);
+        padding: 16px 24px;
+        gap: 16px;
+        border-top: 1px solid rgba(200,180,150,0.2);
+      }
+      .nav-links.open { display: flex; }
+      .hamburger { display: flex; }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .quote-block { padding: 36px 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- AVISO EDUCATIVO -->
+  <div class="edu-banner" role="banner">
+    <strong>⚠ Aviso importante:</strong> Este sitio es de carácter <strong>educativo e informativo</strong>.
+    No está afiliado, patrocinado, respaldado ni vinculado de ninguna manera con
+    <strong>KFC (Kentucky Fried Chicken)</strong>, Yum! Brands Inc., ni ninguna cadena de comida rápida.
+    Todo el contenido es de libre divulgación con fines culturales y pedagógicos.
+  </div>
+
+  <!-- AVISO KFC -->
+  <div class="kfc-banner">
+    🚫 DESCARGO DE RESPONSABILIDAD: Este sitio NO es KFC, NO representa a KFC y NO está autorizado por KFC. Es un sitio educativo independiente.
+  </div>
+
+  <!-- NAVEGACIÓN -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">🍗 Pollo Frito CO</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#regiones">Regiones</a></li>
+        <li><a href="#importancia">Importancia</a></li>
+        <li><a href="#recetas">Recetas</a></li>
+        <li><a href="#politicas">Políticas</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <p class="hero-eyebrow">Patrimonio gastronómico de Colombia</p>
+    <h1>El Pollo Frito:<br/>Sabor, Tradición e Identidad</h1>
+    <p>Un viaje por la historia, la cultura y la importancia culinaria del pollo frito en Colombia, desde las cocinas indígenas hasta las mesas modernas.</p>
+  </header>
+
+  <!-- ══ HISTORIA ══ -->
+  <section id="historia">
+    <div class="container">
+      <p class="section-sub">Desde el pasado hasta hoy</p>
+      <h2>Historia del Pollo Frito en Colombia</h2>
+      <div class="divider"></div>
+
+      <p>El pollo frito en Colombia no es simplemente un plato; es un símbolo de identidad nacional que fusiona siglos de influencias indígenas, africanas y españolas. Antes de la conquista, los pueblos precolombinos de Colombia ya criaban aves y las preparaban con técnicas ancestrales: asado sobre piedras calientes y cocción en caldos con hierbas silvestres.</p>
+
+      <p>Con la llegada de los colonizadores españoles en el siglo XVI, se introdujeron nuevas técnicas culinarias, el aceite de oliva y las especias del Viejo Mundo. Sin embargo, fue la influencia africana, traída por los esclavizados durante la época colonial —especialmente en las regiones del Caribe y el Pacífico colombiano—, la que transformó radicalmente la forma de freír los alimentos. La tradición africana de rebozar y freír en aceite caliente, combinada con especias locales como el ají, el comino y el orégano, dio origen a una técnica propia y profundamente colombiana.</p>
+
+      <p>Durante el siglo XIX, el pollo frito comenzó a consolidarse como plato popular en plazas de mercado, fondas y chichiperros a lo largo del país. En Bogotá, Medellín, Cali y Barranquilla, las fritangas callejeras se convirtieron en punto de encuentro social y cultural. El auge de los mercados populares en los años 1920 y 1930 masificó el consumo y estableció recetas regionales que persisten hasta hoy.</p>
+
+      <div class="quote-block">
+        <blockquote>"El pollo frito colombiano no tiene una sola receta; tiene tantas versiones como familias existen. Cada hogar guarda un secreto de sazón que se transmite de abuela a nieta."</blockquote>
+        <p class="quote-author">— Historiadores de la Gastronomía Colombiana, Universidad Nacional de Colombia</p>
+      </div>
+
+      <p>En la segunda mitad del siglo XX, la industrialización y la llegada de cadenas internacionales de comida rápida impulsaron aún más el consumo de pollo frito, pero también generaron una reacción cultural: los colombianos reafirmaron sus recetas propias, enriquecidas con hogao, limón tahití, papas criollas y ají amarillo, creando una identidad culinaria robusta y diferenciada.</p>
+
+      <!-- TIMELINE -->
+      <div class="timeline" style="margin-top:48px;">
+        <div class="tl-item">
+          <p class="tl-year">Antes de 1500</p>
+          <h3>Raíces Precolombinas</h3>
+          <p>Los pueblos muisca, zenú y caribes ya criaban aves y las preparaban asadas con hierbas y frutos locales.</p>
+        </div>
+        <div class="tl-item">
+          <p class="tl-year">Siglos XVI–XVIII</p>
+          <h3>El Encuentro de Tres Culturas</h3>
+          <p>La fusión de técnicas indígenas, españolas y africanas crea la base de la fritura colombiana: especias, aceites y rebozados únicos.</p>
+        </div>
+        <div class="tl-item">
+          <p class="tl-year">Siglo XIX</p>
+          <h3>Las Fondas y Fritangas</h3>
+          <p>El pollo frito aparece en plazas de mercado y caminos reales, nutriendo a viajeros, comerciantes y familias campesinas.</p>
+        </div>
+        <div class="tl-item">
+          <p class="tl-year">1920–1960</p>
+          <h3>Masificación Popular</h3>
+          <p>Las ciudades crecen y con ellas los mercados públicos. El pollo frito con papa criolla y hogao se consolida como plato urbano de todos los estratos.</p>
+        </div>
+        <div class="tl-item">
+          <p class="tl-year">1970–1990</p>
+          <h3>Industrialización y Diferenciación</h3>
+          <p>Llegan cadenas internacionales. Colombia responde reafirmando sus sabores propios: el pollo sudado, el pechugón y el broaster regional.</p>
+        </div>
+        <div class="tl-item">
+          <p class="tl-year">Siglo XXI</p>
+          <h3>Patrimonio Culinario Nacional</h3>
+          <p>El pollo frito colombiano es reconocido en ferias gastronómicas internacionales. Chefs y cocineras tradicionales lo elevan a categoría de patrimonio inmaterial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AD SLOT 1 -->
+  <div class="container">
+    <div class="ad-slot">
+      <!-- Google AdSense — reemplaza con tu código real de anuncio -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <p style="font-size:0.75rem;color:#a08060;margin-top:8px;">Publicidad — Anuncio de Google</p>
+    </div>
+  </div>
+
+  <!-- ══ REGIONES ══ -->
+  <section id="regiones">
+    <div class="container">
+      <p class="section-sub">Diversidad regional</p>
+      <h2>El Pollo Frito por Regiones de Colombia</h2>
+      <div class="divider"></div>
+      <p>Colombia es un país de regiones y el pollo frito lo refleja fielmente. Cada zona del país tiene su propia interpretación, condimento y acompañamiento que hacen del plato una experiencia única según el lugar.</p>
+
+      <div class="card-grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1598515213692-bfbd13f7e0ee?w=600&h=400&fit=crop&auto=format" alt="Costa Caribe colombiana con pollo frito tradicional" loading="lazy" />
+          <div class="card-body">
+            <h3>🌊 Costa Caribe</h3>
+            <p>En Barranquilla, Cartagena y Santa Marta el pollo frito se marina en sumo de limón, ajo, comino y ají dulce. Se acompaña con arroz con coco, patacones y ensalada de repollo. La fritanga costeña es legendaria en celebraciones y carnavales.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop&auto=format" alt="Plato típico de la región andina colombiana" loading="lazy" />
+          <div class="card-body">
+            <h3>⛰️ Región Andina</h3>
+            <p>Bogotá, Medellín y el Eje Cafetero tienen su versión del pollo frito con papa criolla, hogao y ají de maní. En Antioquia, el <em>pechugón</em> es la versión local: muslos y pechugas fritas a la leña con manteca de cerdo, tradición viva en fondas y restaurantes familiares.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop&auto=format" alt="Gastronomía del Pacífico colombiano" loading="lazy" />
+          <div class="card-body">
+            <h3>🌿 Pacífico Colombiano</h3>
+            <p>Fuertemente influenciado por la herencia afrocolombiana, el pollo frito del Pacífico se prepara con leche de coco, chontaduro y hierbas silvestres como la albahaca morada. Chocó y Buenaventura mantienen recetas de más de 200 años de antigüedad.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop&auto=format" alt="Gastronomía de los Llanos orientales colombianos" loading="lazy" />
+          <div class="card-body">
+            <h3>🌾 Llanos Orientales</h3>
+            <p>En los departamentos de Meta, Vichada y Casanare, el pollo frito llanero se prepara en cocinas de campo, marinado con sal de piedra, limón y yerbas de sabana. Se acompaña con yuca, plátano verde y ají llanero picante.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop&auto=format" alt="Gastronomía de la Amazonía colombiana" loading="lazy" />
+          <div class="card-body">
+            <h3>🌳 Amazonía y Orinoquía</h3>
+            <p>Las comunidades indígenas y mestizas del Amazonas incorporan especias amazónicas únicas: pimienta de monte, achiote y hojas de bijao. El pollo frito amazónico representa la fusión más profunda entre lo ancestral y las técnicas modernas.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600&h=400&fit=crop&auto=format" alt="Plato de pollo frito colombiano con acompañamientos" loading="lazy" />
+          <div class="card-body">
+            <h3>🏙️ Santanderes</h3>
+            <p>Conocidos por su gastronomía audaz, en Bucaramanga y Cúcuta el pollo se marina con caldo de hormigas culonas, achiote y pimienta negra. Es quizás la versión más singular y representativa de la identidad gastronómica santandereana.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ IMPORTANCIA ══ -->
+  <section id="importancia">
+    <div class="container">
+      <p class="section-sub">Más que un plato</p>
+      <h2>Importancia Cultural, Social y Económica</h2>
+      <div class="divider"></div>
+
+      <p>El pollo frito en Colombia trasciende la gastronomía y se instala en el tejido social, económico y cultural de la nación. Es el plato de las fiestas patronales, de los cumpleaños familiares, de los estadios y de los mercados populares. Su preparación es ritual colectivo y su consumo, acto comunitario.</p>
+
+      <div class="stats-row">
+        <div class="stat-box">
+          <span class="stat-num">1.8M</span>
+          <p class="stat-label">Toneladas de pollo consumidas anualmente en Colombia (2023)</p>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">6°</span>
+          <p class="stat-label">Colombia, sexto productor de pollo en América Latina</p>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">450K</span>
+          <p class="stat-label">Empleos directos generados por la industria avícola nacional</p>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">$12B</span>
+          <p class="stat-label">COP en ventas anuales del sector avícola colombiano</p>
+        </div>
+      </div>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--brown);margin:48px 0 16px;">Dimensión Social y Comunitaria</h3>
+      <p>El pollo frito es el alimento más democrático de Colombia. Se consume en igual medida en los barrios populares de Soacha que en los restaurantes gourmet de Chapinero. Esta transversalidad social lo convierte en un puente cultural único entre clases socioeconómicas, regiones y generaciones.</p>
+      <p>Las <em>fritangas</em> callejeras han sido históricamente un espacio de economía popular donde mujeres cabeza de familia han encontrado sustento y autonomía económica. Este fenómeno, especialmente visible en ciudades como Bogotá, Medellín, Cali y Barranquilla, ha sido documentado por investigadores sociales como un modelo de emprendimiento informal que sostiene miles de hogares colombianos.</p>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--brown);margin:32px 0 16px;">El Pollo Frito como Patrimonio Inmaterial</h3>
+      <p>El Ministerio de Cultura de Colombia ha reconocido en múltiples documentos la importancia de las tradiciones culinarias populares, entre ellas el pollo frito, como expresiones del patrimonio cultural inmaterial de la nación. La UNESCO, en su declaratoria sobre la dieta de varios países latinoamericanos, ha destacado el papel de las tradiciones de fritura andina y caribeña en la construcción de identidades nacionales.</p>
+      <p>Festivales como la Feria de las Flores en Medellín, el Carnaval de Barranquilla y las fiestas patrias del 20 de julio incorporan el pollo frito como elemento gastronómico central, consolidando su lugar en la memoria colectiva del país.</p>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--brown);margin:32px 0 16px;">Impacto Económico y Seguridad Alimentaria</h3>
+      <p>La industria avícola colombiana, impulsada en gran parte por la demanda de pollo frito, genera más de 450.000 empleos directos y alrededor de 2 millones de empleos indirectos en toda la cadena de valor. Departamentos como Cundinamarca, Santander, Valle del Cauca y Antioquia concentran la mayor producción avícola del país, dinamizando economías locales y regionales.</p>
+      <p>El pollo es también una fuente proteica fundamental para la seguridad alimentaria de millones de colombianos, especialmente en hogares de bajos ingresos donde representa la proteína animal más accesible en términos de costo y disponibilidad.</p>
+    </div>
+  </section>
+
+  <!-- AD SLOT 2 -->
+  <div class="container">
+    <div class="ad-slot">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="YYYYYYYYYY"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <p style="font-size:0.75rem;color:#a08060;margin-top:8px;">Publicidad — Anuncio de Google</p>
+    </div>
+  </div>
+
+  <!-- ══ RECETAS ══ -->
+  <section id="recetas">
+    <div class="container">
+      <p class="section-sub">Sabores auténticos</p>
+      <h2>Recetas Tradicionales Colombianas</h2>
+      <div class="divider"></div>
+      <p>A continuación, dos de las recetas más representativas del pollo frito colombiano, transmitidas de generación en generación en hogares y restaurantes tradicionales del país.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:32px;margin-top:32px;">
+        <div style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:32px;">
+          <h3 style="font-family:'Playfair Display',serif;color:var(--brown);font-size:1.3rem;margin-bottom:16px;">🍗 Pollo Frito Criollo</h3>
+          <p style="font-size:0.9rem;color:var(--muted);margin-bottom:20px;"><em>Receta tradicional andina. Para 4 personas.</em></p>
+          <h4 style="color:var(--gold);font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;">Ingredientes</h4>
+          <ul style="padding-left:20px;font-size:0.92rem;color:var(--muted);margin-bottom:20px;line-height:2;">
+            <li>1 pollo entero troceado</li>
+            <li>Jugo de 3 limones tahití</li>
+            <li>6 dientes de ajo triturados</li>
+            <li>1 cdita de comino molido</li>
+            <li>1 cdita de achiote en polvo</li>
+            <li>Sal y pimienta negra al gusto</li>
+            <li>Aceite de maíz para freír</li>
+            <li>Papas criollas y hogao para acompañar</li>
+          </ul>
+          <h4 style="color:var(--gold);font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;">Preparación</h4>
+          <ol style="padding-left:20px;font-size:0.92rem;color:var(--muted);line-height:2;">
+            <li>Marina el pollo en limón, ajo, comino y achiote por mínimo 4 horas, idealmente toda la noche.</li>
+            <li>Retira el pollo de la marinada y sécalo con papel absorbente.</li>
+            <li>Calienta aceite abundante a 170°C en paila o caldero.</li>
+            <li>Fríe cada presa durante 12–15 minutos hasta dorar uniformemente.</li>
+            <li>Escurre en papel absorbente y sirve con papas criollas fritas y hogao fresco.</li>
+          </ol>
+        </div>
+        <div style="background:#fff;border:1px solid var(--border);border-radius:12px;padding:32px;">
+          <h3 style="font-family:'Playfair Display',serif;color:var(--brown);font-size:1.3rem;margin-bottom:16px;">🌴 Pollo Frito Costeño</h3>
+          <p style="font-size:0.9rem;color:var(--muted);margin-bottom:20px;"><em>Receta del Caribe colombiano. Para 4 personas.</em></p>
+          <h4 style="color:var(--gold);font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;">Ingredientes</h4>
+          <ul style="padding-left:20px;font-size:0.92rem;color:var(--muted);margin-bottom:20px;line-height:2;">
+            <li>1 pollo entero troceado</li>
+            <li>Jugo de 4 limones y 2 naranjas agrias</li>
+            <li>8 dientes de ajo</li>
+            <li>4 ajíes dulces rojos picados</li>
+            <li>1 cdita de orégano seco</li>
+            <li>1 cdita de pimentón ahumado</li>
+            <li>Sal y pimienta al gusto</li>
+            <li>Patacones y arroz con coco para acompañar</li>
+          </ul>
+          <h4 style="color:var(--gold);font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;">Preparación</h4>
+          <ol style="padding-left:20px;font-size:0.92rem;color:var(--muted);line-height:2;">
+            <li>Prepara la marinada con los cítricos, ajo machacado, ajíes, orégano y pimentón.</li>
+            <li>Sumerge el pollo y marina por 6–8 horas en nevera.</li>
+            <li>Seca bien cada presa antes de freír.</li>
+            <li>Fríe en aceite caliente a 175°C por 14–16 minutos.</li>
+            <li>Sirve inmediatamente con patacones y arroz con coco. ¡Imprescindible el ají pique al lado!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ POLÍTICAS ══ -->
+  <section id="politicas" style="background:#fff;">
+    <div class="container">
+      <p class="section-sub">Transparencia y responsabilidad</p>
+      <h2>Políticas del Sitio</h2>
+      <div class="divider"></div>
+      <p>Este sitio opera bajo los más altos estándares de transparencia, privacidad y ética digital. A continuación encontrará todas las políticas que rigen el funcionamiento de esta plataforma educativa.</p>
+
+      <!-- Política de Privacidad -->
+      <details class="policy-accordion" style="margin-top:32px;">
+        <summary>📋 Política de Privacidad</summary>
+        <div class="acc-body">
+          <p><strong>Fecha de entrada en vigor:</strong> 1 de enero de 2024. <strong>Propietaria del sitio:</strong> Carol Joanna Valderrama Gongora.</p>
+          <h4>1. Información que Recopilamos</h4>
+          <p>Este sitio web de carácter educativo no recopila información personal identificable de forma directa. Sin embargo, como parte de la operación normal del sitio y del uso de servicios de terceros como Google AdSense y Google Analytics, pueden recopilarse los siguientes datos de forma automática:</p>
+          <ul>
+            <li>Dirección IP del visitante (anonimizada)</li>
+            <li>Tipo de navegador y sistema operativo</li>
+            <li>Páginas visitadas y tiempo de permanencia</li>
+            <li>Fuente de tráfico (buscadores, redes sociales, acceso directo)</li>
+            <li>Datos de cookies de sesión y preferencias</li>
+          </ul>
+          <h4>2. Uso de la Información</h4>
+          <p>La información recopilada se utiliza exclusivamente para los siguientes fines:</p>
+          <ul>
+            <li>Mejorar la experiencia del usuario y el contenido del sitio</li>
+            <li>Analizar el tráfico web con fines estadísticos y educativos</li>
+            <li>Mostrar publicidad contextual relevante a través de Google AdSense</li>
+            <li>Cumplir con obligaciones legales aplicables</li>
+          </ul>
+          <h4>3. Cookies</h4>
+          <p>Este sitio utiliza cookies propias y de terceros. Las cookies de Google AdSense permiten mostrar anuncios personalizados basados en las visitas previas del usuario. Puede configurar su navegador para rechazar cookies; sin embargo, esto puede afectar algunas funcionalidades del sitio. Para más información sobre el uso de cookies por parte de Google, visite <em>policies.google.com/technologies/cookies</em>.</p>
+          <h4>4. Google AdSense y Publicidad</h4>
+          <p>Este sitio participa en el programa Google AdSense. Google, como proveedor externo, usa cookies para mostrar anuncios basados en las visitas anteriores de los usuarios a este y otros sitios web. Los usuarios pueden inhabilitar el uso de la cookie de DoubleClick mediante la Configuración de anuncios de Google o visitando <em>aboutads.info</em>. Este sitio cumple con todas las Políticas del Programa Google AdSense, incluyendo las normas sobre contenido familiar, transparencia y exactitud de la información.</p>
+          <h4>5. Derechos del Usuario</h4>
+          <p>De conformidad con la Ley 1581 de 2012 (Ley de Protección de Datos Personales de Colombia) y el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, usted tiene derecho a: acceder, rectificar, cancelar y oponerse al tratamiento de sus datos personales. Para ejercer estos derechos, contáctenos mediante los datos indicados al final de este documento.</p>
+          <h4>6. Seguridad</h4>
+          <p>Implementamos medidas técnicas y organizativas razonables para proteger la información contra accesos no autorizados, pérdida o divulgación indebida. Sin embargo, ninguna transmisión por Internet es 100% segura.</p>
+          <h4>7. Cambios en esta Política</h4>
+          <p>Nos reservamos el derecho de actualizar esta política periódicamente. Las modificaciones se publicarán en esta misma página con su fecha de actualización correspondiente.</p>
+        </div>
+      </details>
+
+      <!-- Términos de Uso -->
+      <details class="policy-accordion">
+        <summary>📜 Términos y Condiciones de Uso</summary>
+        <div class="acc-body">
+          <h4>1. Aceptación de los Términos</h4>
+          <p>Al acceder y utilizar este sitio web, usted acepta quedar vinculado por estos Términos y Condiciones. Si no está de acuerdo con alguno de ellos, le solicitamos que se abstenga de utilizar el sitio.</p>
+          <h4>2. Naturaleza del Sitio</h4>
+          <p>Este es un sitio web de carácter estrictamente <strong>educativo e informativo</strong>. Todo el contenido publicado tiene como único propósito la divulgación cultural y pedagógica sobre la historia y la importancia del pollo frito en Colombia. No constituye asesoramiento nutricional, médico, comercial ni legal.</p>
+          <h4>3. Propiedad Intelectual</h4>
+          <p>Los textos, imágenes, diseño gráfico y demás elementos originales de este sitio son propiedad de <strong>Carol Joanna Valderrama Gongora</strong>. Se permite la reproducción parcial del contenido con fines educativos, siempre que se cite la fuente. Queda prohibida la reproducción comercial sin autorización expresa y por escrito de la propietaria.</p>
+          <h4>4. Limitación de Responsabilidad</h4>
+          <p>La propietaria del sitio no se responsabiliza por los daños directos, indirectos, incidentales o consecuenciales derivados del uso de la información publicada. El contenido se proporciona "tal como está", sin garantías de ningún tipo.</p>
+          <h4>5. Enlaces Externos</h4>
+          <p>Este sitio puede contener enlaces a sitios web de terceros. La propietaria no controla ni respalda el contenido de dichos sitios y no asume responsabilidad alguna por su contenido, políticas de privacidad o prácticas.</p>
+          <h4>6. Modificaciones</h4>
+          <p>Nos reservamos el derecho de modificar, suspender o discontinuar cualquier aspecto del sitio en cualquier momento sin previo aviso.</p>
+          <h4>7. Ley Aplicable</h4>
+          <p>Estos términos se rigen por las leyes de la República de Colombia. Cualquier disputa se someterá a la jurisdicción de los tribunales competentes de Colombia.</p>
+        </div>
+      </details>
+
+      <!-- Política de Cookies -->
+      <details class="policy-accordion">
+        <summary>🍪 Política de Cookies</summary>
+        <div class="acc-body">
+          <h4>¿Qué son las cookies?</h4>
+          <p>Las cookies son pequeños archivos de texto que los sitios web almacenan en su dispositivo cuando los visita. Se utilizan para hacer que los sitios funcionen correctamente, mejorar la eficiencia y proporcionar información a los propietarios del sitio.</p>
+          <h4>Tipos de cookies que utilizamos</h4>
+          <ul>
+            <li><strong>Cookies estrictamente necesarias:</strong> Esenciales para el funcionamiento del sitio.</li>
+            <li><strong>Cookies de rendimiento:</strong> Google Analytics para medir el tráfico y comportamiento de los usuarios.</li>
+            <li><strong>Cookies de publicidad:</strong> Google AdSense para mostrar anuncios relevantes. Estas cookies pueden rastrear su navegación entre sitios.</li>
+            <li><strong>Cookies de funcionalidad:</strong> Para recordar sus preferencias de navegación.</li>
+          </ul>
+          <h4>Control de cookies</h4>
+          <p>Puede controlar y gestionar las cookies desde la configuración de su navegador. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio. Para inhabilitar los anuncios personalizados de Google, visite <em>myaccount.google.com/data-and-privacy</em>.</p>
+        </div>
+      </details>
+
+      <!-- Política de Publicidad -->
+      <details class="policy-accordion">
+        <summary>📢 Política de Publicidad (Google AdSense)</summary>
+        <div class="acc-body">
+          <h4>Declaración de Publicidad</h4>
+          <p>Este sitio web muestra anuncios administrados por Google LLC a través del programa Google AdSense. Al usar este sitio, usted reconoce y acepta que:</p>
+          <ul>
+            <li>Google puede usar cookies e identificadores para personalizar los anuncios mostrados.</li>
+            <li>Los anuncios mostrados en este sitio no representan la opinión ni el respaldo de la propietaria del sitio respecto a los productos o servicios anunciados.</li>
+            <li>Este sitio cumple con las Políticas del Programa Google AdSense y las normas de contenido de Google.</li>
+            <li>La propietaria del sitio no es responsable del contenido de los anuncios de terceros.</li>
+          </ul>
+          <h4>Consentimiento de Publicidad Personalizada</h4>
+          <p>Conforme al Reglamento General de Protección de Datos (RGPD) y la Ley de Privacidad del Consumidor de California (CCPA), los usuarios en la Unión Europea y California tienen derecho a optar por no recibir publicidad personalizada. Para ello, pueden visitar <em>optout.aboutads.info</em> o configurar sus preferencias en <em>adssettings.google.com</em>.</p>
+          <h4>Declaración de Cumplimiento</h4>
+          <p>Este sitio declara expresamente que:</p>
+          <ul>
+            <li>No engaña a los anunciantes ni a los usuarios sobre el tráfico o el rendimiento del sitio.</li>
+            <li>No hace clic en sus propios anuncios ni alienta a otros a hacerlo.</li>
+            <li>No utiliza técnicas para inflar artificialmente las impresiones o los clics de los anuncios.</li>
+            <li>El contenido del sitio cumple con las políticas de contenido familiar de Google AdSense.</li>
+            <li>Toda la información publicada es verídica, tiene base investigativa y no es engañosa.</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- Descargo de responsabilidad -->
+      <details class="policy-accordion">
+        <summary>⚠️ Descargo de Responsabilidad — No Afiliación con KFC</summary>
+        <div class="acc-body">
+          <h4>Declaración Expresa de No Afiliación</h4>
+          <p>Este sitio web <strong>NO está afiliado, asociado, autorizado, respaldado, patrocinado ni vinculado de ninguna manera</strong> con KFC (Kentucky Fried Chicken), Yum! Brands Inc., ni con ninguna de sus subsidiarias, filiales, marcas registradas o franquiciados.</p>
+          <p>Los nombres "KFC", "Kentucky Fried Chicken" y el coronel Sanders son marcas registradas de Yum! Brands Inc. Su mención en este sitio se realiza únicamente con fines informativos y educativos, en el contexto del análisis histórico del mercado gastronómico colombiano, sin intención de infringir derechos de propiedad intelectual.</p>
+          <h4>Propósito Exclusivamente Educativo</h4>
+          <p>Todo el contenido de este sitio tiene un propósito exclusivamente educativo y cultural. La información presentada sobre el pollo frito en Colombia está basada en investigación histórica, gastronómica y cultural de dominio público. No se busca competir comercialmente con ninguna empresa del sector alimentario.</p>
+          <h4>Propiedad del Sitio</h4>
+          <p>Este sitio web es propiedad exclusiva de <strong>Carol Joanna Valderrama Gongora</strong>, ciudadana colombiana, quien lo administra de forma independiente sin vinculación comercial con empresas de comida rápida o cadenas de restaurantes.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🍗 El Pollo Frito en Colombia</h3>
+        <p>Sitio educativo e informativo sobre la historia y la importancia cultural del pollo frito en Colombia. Contenido basado en investigación histórica y gastronómica de acceso público.</p>
+        <p style="margin-top:16px;font-size:0.8rem;color:#a08060;">Propietaria: <strong style="color:#c8b49a;">Carol Joanna Valderrama Gongora</strong></p>
+        <p style="font-size:0.8rem;color:#a08060;">© 2024 Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contenido</h4>
+        <ul>
+          <li><a href="#historia">Historia del Pollo Frito</a></li>
+          <li><a href="#regiones">Variedades Regionales</a></li>
+          <li><a href="#importancia">Importancia Cultural</a></li>
+          <li><a href="#recetas">Recetas Tradicionales</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Políticas</h4>
+        <ul>
+          <li><a href="#politicas">Política de Privacidad</a></li>
+          <li><a href="#politicas">Términos y Condiciones</a></li>
+          <li><a href="#politicas">Política de Cookies</a></li>
+          <li><a href="#politicas">Política de Publicidad</a></li>
+          <li><a href="#politicas">Descargo de Responsabilidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Carol Joanna Valderrama Gongora — Todos los derechos reservados.</p>
+      <p>⚠ Sitio educativo. No afiliado con KFC ni ninguna cadena comercial.</p>
+      <p>Diseñado con fines culturales y pedagógicos — República de Colombia 🇨🇴</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    // Close menu on link click
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+  </script>
+</body>
+</html>
